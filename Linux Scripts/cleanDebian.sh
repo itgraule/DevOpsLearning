@@ -18,4 +18,11 @@ sudo journalctl --vacuum-time=3d
 
 sudo rm -rf /tmp/*
 
+rm -rf ~/Library/Application\ Support/Code/Cache/* 
+rm -rf ~/Library/Application\ Support/Code/CachedData/* 
+
+rm -rf ~/.config/Code/CachedExtensionVSIXs/* 
+
 sudo du -sh /var/* | sort -rh | head -5
+
+sudo find / -mount -type f -size +100M -exec du -h {} \; | sort -n

@@ -40,20 +40,25 @@ Tools for API design
 
 ## 2. Code:
 
-Version Control:
-
+### Version Control:
 - [Git](/Git%20Comands/GItComands.md): Essential for code versioning and collaboration.
 
-Code Review:
+### Source Code Review:
 - GitHub (pull requests/merge requests).
 
-Static application security testing (SAST)
-- [SonarQube](https://www.sonarsource.com/learn/getting-started-with-sonarqube-cloud/): For code quality analysis and security.
-
-Integrated Development Environments (IDEs):
+### Integrated Development Environments (IDEs):
 - [VS Code](https://code.visualstudio.com/docs/getstarted/getting-started)
 - IntelliJ IDEA
 - xCode
+
+### Static Code Analysis Tool
+- [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode)
+
+### Dev Environments
+- [DevBox](https://www.jetify.com/devbox): Creates isolated, reproducible development environments that run anywhere
+
+### Copilot - AI 
+- [GitHub Copilot](https://code.visualstudio.com/docs/copilot/overview)
 
 ## 3. Build:
 
@@ -95,6 +100,9 @@ Test Driven Development, with good code coverage, testing all API end point.
 - Jest (JavaScript), 
 - Go testing package.
 
+### Static application security testing (SAST)
+- [SonarQube](https://www.sonarsource.com/learn/getting-started-with-sonarqube-cloud/): For code quality analysis and security.
+
 ### Integration Testing:
 Postman, SoapUI.
 
@@ -133,6 +141,9 @@ Continuous Delivery ensures that code can be rapidly and safely deployed to prod
 - Kubernetes: For container deployment and management.
 
 ## 6. Deploy:
+
+Continuos Deployment to Production Enviourment
+and Provisioning of Resources
 
 ### Deployment Strategies:
 - Knowledge of blue/green deployments
